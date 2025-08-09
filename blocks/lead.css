@@ -1,7 +1,22 @@
 .lead {
-  color: #ffffff;
+  text-align: center;
+}
+.lead__title {
+  font-family: "InterVariable";
+  font-size: 97px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 720px;
+  padding-bottom: 20px;
+}
+.lead__subtitle {
+  font-family: "InterVariable";
+  font-size: 30px;
+  max-width: 720px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  line-height: 30px;
 }
 .lead__image {
-  width: 984px;
-  height: 615px;
+  max-width: 100%;
 }

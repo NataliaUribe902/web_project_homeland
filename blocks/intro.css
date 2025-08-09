@@ -1,3 +1,27 @@
 .intro {
-  color: #ffffff;
+  font-family: "InterVariable";
+  max-width: 830px;
+  margin: 52px auto;
+}
+
+.intro__title {
+  font-family: "InterVariable";
+  font-size: 54px;
+  line-height: 1.1;
+}
+.intro__quote {
+  font-size: 24px;
+  text-align: left;
+  max-width: 700px;
+}
+.intro__quote-author {
+  position: relative;
+  text-align: right;
+  right: 6px;
+  font-size: 24px;
+}
+.intro__paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left;
 }
