@@ -13,7 +13,6 @@
   src: url("../vendor/fonts/InterVariable.woff2") format("woff2");
 }
 
-/* static fonts */
 @font-face {
   font-family: "Inter";
   font-style: normal;
