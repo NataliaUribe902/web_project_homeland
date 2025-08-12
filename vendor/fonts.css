@@ -268,23 +268,21 @@
 }
 @font-feature-values InterVariable {
   @styleset {
-    alt-1: 1; /* Alternate one */
-    alt-3: 9; /* Flat-top three */
-    open-4: 2; /* Open four */
-    open-6: 3; /* Open six */
-    open-9: 4; /* Open nine */
+    alt-1: 1;
+    alt-3: 9;
+    open-4: 2;
+    open-6: 3;
+    open-9: 4;
+    closed-4: 7;
+    closed-6: 8;
+    closed-9: 9;
   }
   @character-variant {
-    straight-quote-single: 1; /* Straight single quotes */
-    straight-quote-double: 2; /* Straight double quotes */
-    high-apostrophe: 3; /* High apostrophe */
-  }
-  @styleset {
-    open-capital-u: 5; /* Open capital U */
-    open-lowercase-u: 6; /* Open lowercase u */
-    tailed-lowercase-l: 7; /* Tailed lowercase l */
-  }
-  @styleset {
-    squared-characters: 6; /* Squared characters */
+    straight-quote-single: 1;
+    straight-quote-double: 2;
+    high-apostrophe: 3;
+    high-quote-double: 4;
+    straight-apostrophe: 5;
+    straight-double-quote: 6;
   }
 }
