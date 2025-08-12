@@ -1,4 +1,4 @@
-.logo__icon {
+.header__logo {
   max-width: 254.84px;
   max-height: 68.94px;
   display: block;
@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 @media screen and (min-width: 320px) and (max-width: 544px) {
-  .logo__icon {
+  .header__logo {
     max-width: 190px;
     padding-bottom: 50px;
   }
