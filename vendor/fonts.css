@@ -13,24 +13,3 @@
   font-display: swap;
   src: url("../vendor/fonts/InterVariable-Italic.woff2") format("woff2");
 }
-
-@font-feature-values InterVariable {
-  @styleset {
-    alt-1: 1;
-    alt-3: 9;
-    open-4: 2;
-    open-6: 3;
-    open-9: 4;
-    closed-4: 7;
-    closed-6: 8;
-    closed-9: 9;
-  }
-  @character-variant {
-    straight-quote-single: 1;
-    straight-quote-double: 2;
-    high-apostrophe: 3;
-    high-quote-double: 4;
-    straight-apostrophe: 5;
-    straight-double-quote: 6;
-  }
-}
