@@ -6,6 +6,7 @@
 
 .intro__title {
   font-family: "InterVariable";
+  text-align: left;
   font-size: 54px;
   line-height: 1.1;
 }
@@ -24,4 +25,31 @@
   font-size: 16px;
   line-height: 1.6;
   text-align: left;
+}
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .intro {
+    margin: 15px;
+  }
+  .intro__title {
+    font-size: 40px;
+    line-height: 1;
+  }
+  .intro__quote {
+    line-height: 1;
+  }
+  .intro__paragraph {
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .intro {
+    margin: 25px;
+  }
+  .intro__title {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    max-width: 670px;
+    font-size: 45px;
+    line-height: 0.8;
+  }
 }

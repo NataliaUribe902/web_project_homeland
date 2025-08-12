@@ -17,6 +17,28 @@
   padding-bottom: 60px;
   line-height: 30px;
 }
+
 .lead__image {
   max-width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+  .lead__title {
+    max-width: 220px;
+    font-size: 40px;
+    line-height: 1;
+  }
+  .lead__subtitle {
+    max-width: 290px;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .lead__title {
+    max-width: 650px;
+    font-size: 85px;
+    line-height: 0.8;
+    margin-bottom: 10px;
+  }
 }
