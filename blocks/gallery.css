@@ -8,6 +8,8 @@
 }
 .gallery__grid-item {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
 }
 .gallery__title {
   font-family: "InterVariable";
